@@ -1,0 +1,13 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+{
+    "title": "This is another post",
+    "description": "This is another description"
+}
+
+
+### 
+DELETE  http://localhost:3000/posts/64fc76cef0aa16869641e7dc
+
+###
+GET http://localhost:3000/posts
